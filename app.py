@@ -1,6 +1,2 @@
-print('Hy')
-
-x = 10
-print(x)
-
-
+from playsound import playsound
+playsound('MacintoshHD//users//Users//mohsinmunir//Downloads') 
