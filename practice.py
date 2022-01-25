@@ -2,16 +2,18 @@ from re import I
 
 
 a = 'Mohsin'
-jutt = 20
-j = True
-k = None
-print(jutt)
-print(a) 
-print(a)
-print(type(j))
-print(type(k))
-print(type(k))
+jutt = 2
 i=0
-while i<jutt:
- print("*")
- i += 3  
+k = None
+
+#while i<jutt:
+#print("@")
+#i += 1
+p = 10
+print('p IS equal to ', p)
+a = input("Enter a number")
+a = int(a)
+print(a)
+print(type(a))
+print(type(p))
+
