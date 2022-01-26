@@ -1,19 +1,10 @@
 from re import I
 
-
-a = 'Mohsin'
-jutt = 2
-i=0
-k = None
-
-#while i<jutt:
-#print("@")
-#i += 1
-p = 10
-print('p IS equal to ', p)
-a = input("Enter a number")
-a = int(a)
-print(a)
-print(type(a))
-print(type(p))
+num = int(input('How many numbers: '))
+total_sum = 0
+for n in range(num):
+    numbers = float(input('Enter number : '))
+    total_sum += numbers
+avg = total_sum/num
+print('Average of ', num, ' numbers is :', avg)
 
