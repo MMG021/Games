@@ -1,5 +1,6 @@
 from operator import le
 from re import I
+from unicodedata import name
 
 # num = int(input('How many numbers: '))
 # total_sum = 0
@@ -23,3 +24,14 @@ print(story.endswith("economy"))
 print(len(story))
 print("Number of 'a' in story",story.count("a"))
 print()
+
+story1 = ''' Dear <|NAME|>
+Hello there . If you want to join this program kindly vsit our Office
+Date: <|DATE|>
+ '''
+
+name = input("Enter Your Name")
+date = input("Enter date")
+story1 = story1.replace("<|NAME|>", name)
+story1 = story1.replace("<|DATE|>",date)
+print(story1)
