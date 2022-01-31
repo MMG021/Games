@@ -35,3 +35,4 @@ date = input("Enter date")
 story1 = story1.replace("<|NAME|>", name)
 story1 = story1.replace("<|DATE|>",date)
 print(story1)
+
