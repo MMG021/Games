@@ -2,13 +2,13 @@ from operator import le
 from re import I
 from unicodedata import name
 
-# num = int(input('How many numbers: '))
-# total_sum = 0
-# for n in range(num):
-#     numbers = float(input('Enter number : '))
-#     total_sum += numbers
-# avg = total_sum/num
-# print('Average of ', num, ' numbers is :', avg)
+num = int(input('How many numbers: '))
+total_sum = 0
+for n in range(num):
+    numbers = float(input('Enter number : '))
+    total_sum += numbers
+avg = total_sum/num
+print('Average of ', num, ' numbers is :', avg)
 
 story = """education is a process of learning through which we acquire knowledge. 
 It enlightens, empowers, and creates a positive development. 
